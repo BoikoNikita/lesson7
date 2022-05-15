@@ -20,7 +20,11 @@ void FillArray (int[,] matr)
         }
     }
 }
-
-int[,] matrix = new int [3,4];
+Console.WriteLine("Введите m: ");
+int m = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите n: ");
+int n = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine();
+int[,] matrix = new int [m,n];
 FillArray(matrix);
 PrintArray(matrix);

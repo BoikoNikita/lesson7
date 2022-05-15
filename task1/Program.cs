@@ -23,5 +23,4 @@ void FillArray (int[,] matr)
 
 int[,] matrix = new int [3,4];
 FillArray(matrix);
-Console.WriteLine();
 PrintArray(matrix);
